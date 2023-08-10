@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <title>Vuelos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Vuelo</h1>
+        <div class="row">
+            <div class="col-2">
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="radio" name="tipoVuelo" checked>
+                    <label class="form-check-label">
+                        Redondo
+                    </label>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="radio" name="tipoVuelo">
+                    <label class="form-check-label">
+                        Sólo ida
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Origen</label>
+                    <select class="form-select">
+                        <option value="" selected disabled>Elige un origen</option>
+                        <option value="">Ciudad de México</option>
+                        <option value="">Hermosillo</option>
+                        <option value="">Ciudad Obregón</option>
+                        <option value="">Tijuana</option>
+                        <option value="">Guadalajara</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Destino</label>
+                    <select class="form-select">
+                        <option value="" selected disabled>Elige un destino</option>
+                        <option value="">Ciudad de México</option>
+                        <option value="">Hermosillo</option>
+                        <option value="">Ciudad Obregón</option>
+                        <option value="">Tijuana</option>
+                        <option value="">Guadalajara</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="mb-3">
+                    <label class="form-label">Salida</label>
+                    <input type="date" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="mb-3">
+                    <label class="form-label">Llegada</label>
+                    <input type="date" class="form-control">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="mb-3">
+                    <label class="form-label">Adultos</label>
+                    <select class="form-select">
+                        <option value="" selected disabled># de adultos viajando</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="mb-3">
+                    <label class="form-label">Niños</label>
+                    <select class="form-select">
+                        <option value="" selected disabled># de niños viajando</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Clase</label>
+                    <select class="form-select">
+                        <option value="" selected disabled>Selecciona la clase con la que desas viajar</option>
+                        <option value="">Económica</option>
+                        <option value="">Turista</option>
+                        <option value="">Primera clase</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-end">
+                <label class="form-label"></label>
+                <button class="btn btn-primary">Buscar vuelos</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
